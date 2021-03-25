@@ -7,7 +7,7 @@ target 'Mpple' do
 
   # Pods for Mpple
   pod 'JTAppleCalendar'
-
+  pod 'Firebase/Analytics'
   target 'MppleTests' do
     inherit! :search_paths
     # Pods for testing
