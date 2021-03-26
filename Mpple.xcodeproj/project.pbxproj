@@ -99,13 +99,8 @@
 		3C6AF319260C9FCF001FACCC /* Mpple */ = {
 			isa = PBXGroup;
 			children = (
-				3C6AF31A260C9FCF001FACCC /* AppDelegate.swift */,
-				3C6AF31C260C9FCF001FACCC /* SceneDelegate.swift */,
-				3C6AF31E260C9FCF001FACCC /* ViewController.swift */,
-				3C6AF320260C9FCF001FACCC /* Main.storyboard */,
-				3C6AF323260C9FD0001FACCC /* Assets.xcassets */,
-				3C6AF325260C9FD0001FACCC /* LaunchScreen.storyboard */,
-				3C6AF328260C9FD0001FACCC /* Info.plist */,
+				3C6AF3B2260D7CF9001FACCC /* Resources */,
+				3C6AF3B3260D7D58001FACCC /* Sources */,
 			);
 			path = Mpple;
 			sourceTree = "<group>";
@@ -126,6 +121,35 @@
 				3C6AF33E260C9FD0001FACCC /* Info.plist */,
 			);
 			path = MppleUITests;
+			sourceTree = "<group>";
+		};
+		3C6AF3B2260D7CF9001FACCC /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3C6AF323260C9FD0001FACCC /* Assets.xcassets */,
+				3C6AF328260C9FD0001FACCC /* Info.plist */,
+				3C6AF325260C9FD0001FACCC /* LaunchScreen.storyboard */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		3C6AF3B3260D7D58001FACCC /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				3C6AF3B4260D7D95001FACCC /* View */,
+				3C6AF31A260C9FCF001FACCC /* AppDelegate.swift */,
+				3C6AF31C260C9FCF001FACCC /* SceneDelegate.swift */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		3C6AF3B4260D7D95001FACCC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3C6AF320260C9FCF001FACCC /* Main.storyboard */,
+				3C6AF31E260C9FCF001FACCC /* ViewController.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
